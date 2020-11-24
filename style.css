@@ -31,20 +31,24 @@
 }
 
 .search {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 60px;
+  border: 1px solid blue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  width: 54vh;
+  height: 5px;
+  border-radius: 15px;
+  margin: 0 auto;
 }
 
 .search #search {
-  width: 70vh;
-  height: 5vh;
-  border-radius: 15px;
+  border: none;
+  width: 49vh;
+  padding: 7px;
 }
 
 .btn {
